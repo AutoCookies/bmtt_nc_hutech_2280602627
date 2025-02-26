@@ -63,3 +63,16 @@ while (True):
             qlsv.showSinhVien(qlsv.getListSinhVien())
         else:
             print("\nDanh sach sinh vien trong")
+
+    elif key == 7:
+        if qlsv.soLuongSinhVien() > 0:
+            print("\n7. Hien thi danh sach sinh vien.")
+            qlsv.showSinhVien(qlsv.getListSinhVien())
+        else:
+            print("\nDanh sach sinh vien trong")
+
+    elif key == 0:
+        print("\nThoat chuong trinh!")
+        break
+    else:
+        print("\nChuc nang khong hop le, vui long nhap lai.")
