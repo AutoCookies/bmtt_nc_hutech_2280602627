@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1130</width>
-    <height>600</height>
+    <width>1003</width>
+    <height>591</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,224 +17,176 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>20</y>
-      <width>271</width>
-      <height>41</height>
+      <x>380</x>
+      <y>10</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>36</pointsize>
+      <pointsize>28</pointsize>
      </font>
     </property>
     <property name="text">
      <string>RSA CIPHER</string>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
    </widget>
-   <widget class="QPushButton" name="generate_btn">
+   <widget class="QTextEdit" name="txt_plain_text">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>70</y>
-      <width>181</width>
-      <height>23</height>
+      <x>50</x>
+      <y>110</y>
+      <width>361</width>
+      <height>71</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
+   </widget>
+   <widget class="QTextEdit" name="txt_cipher_text">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
     </property>
-    <property name="text">
-     <string>Generate Keys</string>
+   </widget>
+   <widget class="QTextEdit" name="txt_info">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>110</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt_sign">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>310</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>120</y>
-      <width>71</width>
-      <height>16</height>
+      <x>60</x>
+      <y>80</y>
+      <width>47</width>
+      <height>13</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
     <property name="text">
-     <string>Plain Text</string>
+     <string>Plain text</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>220</y>
-      <width>91</width>
-      <height>16</height>
+      <x>56</x>
+      <y>280</y>
+      <width>61</width>
+      <height>20</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
     <property name="text">
-     <string>Cipher Text</string>
+     <string>Cipher text</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>240</y>
-      <width>91</width>
-      <height>21</height>
+      <x>540</x>
+      <y>80</y>
+      <width>61</width>
+      <height>20</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
     <property name="text">
-     <string>Signature</string>
+     <string>Info</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>120</y>
-      <width>101</width>
-      <height>16</height>
+      <x>540</x>
+      <y>280</y>
+      <width>61</width>
+      <height>20</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Information</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>120</y>
-      <width>351</width>
-      <height>71</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>220</y>
-      <width>351</width>
-      <height>71</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>120</y>
-      <width>351</width>
-      <height>71</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_4">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>220</y>
-      <width>351</width>
-      <height>71</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="encrypt_btn">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>330</y>
-      <width>181</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>encrypt</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="decrypt_btn">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>330</y>
-      <width>181</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>decrypt</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="sign_btn">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>330</y>
-      <width>181</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
     </property>
     <property name="text">
      <string>sign</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="verify_btn">
+   <widget class="QPushButton" name="btn_encrypt">
     <property name="geometry">
      <rect>
-      <x>860</x>
-      <y>330</y>
-      <width>181</width>
+      <x>50</x>
+      <y>420</y>
+      <width>75</width>
       <height>23</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
+    <property name="text">
+     <string>Encrypt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_decrypt">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>420</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
     </property>
     <property name="text">
-     <string>verify</string>
+     <string>Decrypt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_sign">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>410</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sign</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_verify">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>410</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_gen_keys">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Keys Generate</string>
     </property>
    </widget>
   </widget>
@@ -243,7 +195,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1130</width>
+     <width>1003</width>
      <height>21</height>
     </rect>
    </property>

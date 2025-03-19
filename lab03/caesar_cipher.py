@@ -3,6 +3,7 @@ import requests
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
 from UI.caesar import Ui_MainWindow  # Fixed the typo here
 
+
 class MyApp(QMainWindow):
     def __init__(self):
         super().__init__()  # Fixed the typo
